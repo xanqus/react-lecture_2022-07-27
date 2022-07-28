@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Counter({ counter, setCounter }) {
+const Counter = ({ counter, setCounter }) => {
   const addCounter = () => {
     setCounter(counter + 1);
   };
@@ -11,6 +11,6 @@ function Counter({ counter, setCounter }) {
     </div>
   );
   return;
-}
+};
 
 export default Counter;
